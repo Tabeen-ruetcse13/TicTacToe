@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Challenge Your Brain</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_start">Start</string>
+    <string name="title_activity_credit">Credit</string>
+    <string name="title_activity_challenge__your__brain">Challenge_Your_Brain</string>
+    <string name="title_activity_challenge_your_brain">ChallengeYourBrain</string>
+    <string name="title_activity_opening">OpeningActivity</string>
+    <string name="title_activity_choice">Choice</string>
+    <string name="title_activity_tic_tac_toe_hard">TicTacToeHard</string>
+    <string name="title_activity_tic_tac_toe_easy">TicTacToeEasy</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Credit"
+    android:background="@drawable/background_white3">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+		
+        
+        <TextView
+        	android:id="@+id/detailsTextView"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:text="Designed by"
+			android:textColor="@android:color/black"
+        	android:textSize="33sp" />
+        
+    	<TextView
+        	android:id="@+id/detailsTextView"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:text="Tabeen Tasneem\nEmail: prothoma.ruet.cse13@gmail.com"
+			android:textColor="@android:color/black"
+        	android:textSize="23sp" />
+
+    	<RelativeLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" >
+
+	        <TextView
+    	        android:id="@+id/fbId"
+        	    android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="5dp"
+            	android:text="Fb: Tabeen Tasneem"
+            	android:textColor="@android:color/black"
+            	android:textSize="25sp"/>
+
+        	<Button
+            	android:id="@+id/goButton"
+            	android:layout_width="80dp"
+            	android:layout_height="35dp"
+            	android:layout_toRightOf="@+id/fbId"
+            	android:layout_marginLeft="10dp"
+            	android:text="Go"
+            	android:textColor="@android:color/black"
+            	android:background="@drawable/button_background" />
+        
+	    </RelativeLayout>
+	    
+	</LinearLayout>
+
+</RelativeLayout>
